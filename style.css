@@ -1,0 +1,129 @@
+body{
+  background: #FFDEAD;
+}
+header{
+  background: #FFE4C4;
+}
+h1{
+  font-size: 200%
+}
+.caixa{
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+nav{
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+nav li{
+  display: inline;
+  margin: 0 0 0 15px;
+}
+nav a{
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+}
+.inputpadrao{
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
+  border: none;
+  box-shadow: 2px 2px 2px rgba(0,0,0.2 );
+  background:   #FFE4C4;
+  border-radius: 15px;
+}
+form label, form legend{
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+form{
+  margin: 40px 0;
+}
+main{
+  width: 940px;
+  margin: 0 auto;
+}
+.enviar{
+  width: 40%;
+  padding: 15px 0;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  background-color: orange;
+  transition: 1s all;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px rgba(0,0,0.2 );
+  margin: 0 0 15px;
+
+}
+.enviar:hover{
+  background: darkorange;
+  transform: scale(1.1);
+}
+table{
+  margin: 20px 0 40px;
+}
+thead{
+  background: #555555;
+  color: whithe;
+  font-weight: bold;
+}
+td, th{
+  border:1px solid #000000;
+  padding: 8px 15px;
+}
+footer{
+  text-align: center;
+  background: #000000;
+  padding: 30px 0;
+}
+.copyright{
+  color: #ffffff;
+  font-size: 13px;
+  margin: 20px 0 0;
+}
+.produtos-valor{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+}
+.lista li:hover{
+  border-color: #C78C19;
+}
+.lista li:active{
+  border-color: #008C19;
+}
+.lista li:hover h2{
+  font-size: 20px;
+}
+.lista{
+  margin: 30px 0 40px;
+}
+h2{
+  font-size: 30px;
+  font-weight: bold;
+}
+.produto-descricao{
+  font-size: 20px;
+}
+.preco-produto{
+  font-size: 20px;
+  font-weight: bold;
+}

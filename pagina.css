@@ -1,0 +1,70 @@
+body{
+  background: #FFDEAD;
+}
+header{
+  background: #FFE4C4;
+}
+main{
+  width: 940px;
+  margin: 0 auto;
+}
+
+.cabeca{
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+nav{
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+nav li{
+  display: inline;
+  margin: 0 0 0 15px;
+}
+nav a{
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+}
+#titulo-secundario{
+  padding: 30px 0;
+  font-size: 250%;
+}
+#texto{
+  font-size: 150%;
+  margin: 0 0 0 15px;
+}
+#titulo2{
+  padding: 30px 0;
+  font-size: 200%;
+  margin: 0 0 0 500px;
+}
+.itens{
+  font-size: 150%;
+}
+ol{
+  display: inline-block;
+  width: 25%;
+  margin-right: 15%;
+  vertical-align: top;
+  margin: 0 0 0 20px;
+}
+.beneficiosfoto {
+   width: 25%;
+   margin: 0 0 0 500px;
+}
+
+footer{
+  text-align: center;
+  background: #000000;
+  padding: 30px 0;
+}
+.copyright{
+  color: #ffffff;
+  font-size: 13px;
+  margin: 20px 0 0;
+}
